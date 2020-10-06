@@ -1,0 +1,61 @@
+{
+  "Posts": [
+    {
+      "id": 1,
+      "title": "React Test Context 1",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "subtitle2": "sachith weerasinghe",
+      "date": "October 5, 2020",
+      "CardMedia": "/images/pexels-photo-2004161.webp",
+      "avatar": "/images/pexels-photo-220453.jpeg"
+    },
+
+    {
+      "id": 2,
+      "title": "React useContext 2",
+      "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,",
+      "subtitle2": "Dulanga Jayawardana",
+      "date": "October 4, 2020",
+      "CardMedia": "/images/pexels-photo.jpg",
+      "avatar": "/images/photo-1494790108377-be9c29b29330.jpg"
+    },
+
+    {
+      "id": 3,
+      "title": "React useContext 3",
+      "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'",
+      "subtitle2": "Nimsa frenando",
+      "date": "October 3, 2020",
+      "CardMedia": "/images/pexels-photo-1181263.jpeg",
+      "avatar": "/images/pexels-photo-415829.jpeg"
+    },
+
+    {
+      "id": 4,
+      "title": "React useContext 4",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+      "subtitle2": "Chamara madhushan",
+      "date": "October 2, 2020",
+      "CardMedia": "/images/pexels-photo-325111.webp",
+      "avatar": "/images/photo-1584999734482-0361aecad844.jpg"
+    },
+    {
+      "id": 5,
+      "title": "React useContext 5",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+      "subtitle2": "Sudarshana atapattu",
+      "date": "September 2, 2020",
+      "CardMedia": "/images/pexels-photo-325111.webp",
+      "avatar": "/images/photo-1584999734482-0361aecad844.jpg"
+    },
+    {
+      "id": 6,
+      "title": "React useContext 6",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+      "subtitle2": "Amila malmeewala",
+      "date": "September 3, 2020",
+      "CardMedia": "/images/pexels-photo-325111.webp",
+      "avatar": "/images/photo-1584999734482-0361aecad844.jpg"
+    }
+  ]
+}
