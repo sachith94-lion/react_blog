@@ -6,15 +6,12 @@ import PostView from "./components/PostView/PostView";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
-
-
-
   return (
     <div>
       <BrowserRouter>
         <NavBar />
         <Switch>
-          <Route path="/post">
+          <Route path="/post" >
             <PostView />
           </Route>
           <Route path="/">
