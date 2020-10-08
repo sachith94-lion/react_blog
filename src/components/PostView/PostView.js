@@ -1,28 +1,33 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 
+import postsData from "../../posts.json";
 
+function PostView() {
+  const params = useParams();
+  const post = postsData.Posts.find((p) => p.id === parseInt(params.id));
+  
 
-function PostView(props) {
   return (
     <div>
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-                <h1 className="mt-4">{props.title}</h1>
+            <h1 className="mt-4">{post.title}</h1>
             <p className="lead">
               by
-              <a href="#"> &nbsp;{props.subtitle2}</a>
+              <a href="#"> &nbsp;{post.subtitle2}</a>
             </p>
             <hr></hr>
-            <p>Posted on {props.date}</p>
+            <p>Posted on {post.date}</p>
             <hr></hr>
             <img
               className="img-fluid rounded"
-              src={props.CardMedia}
+              src={post.CardMedia}
               alt=""
             ></img>
             <hr></hr>
-            <p className="lead">{props.content}</p>
+            <p className="lead">{post.content}</p>
 
             <div className="card my-4">
               <h5 className="card-header">Leave a Comment:</h5>

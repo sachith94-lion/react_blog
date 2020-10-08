@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Switch>
-          <Route path="/post" >
+        <Route path="/post/:id">
             <PostView />
           </Route>
           <Route path="/">

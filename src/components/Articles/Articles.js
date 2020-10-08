@@ -30,7 +30,7 @@ function Articles() {
           {postsList.map((s) => {
             return (
               <Grid item xs={12} sm={6} md={4} key={s.id} >
-                <Link className="nav-link" to="/post" title={s.title} subtitle2={s.subtitle2} content={s.content} date={s.date}>
+                <Link className="nav-link" to={`/post/${s.id}`} title={s.title} subtitle2={s.subtitle2} content={s.content} date={s.date}>
                   <Card className={classes.card}>
                     <CardActionArea>
                       <CardMedia
