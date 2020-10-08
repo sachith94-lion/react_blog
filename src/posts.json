@@ -6,7 +6,7 @@
       "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       "subtitle2": "sachith weerasinghe",
       "date": "October 5, 2020",
-      "CardMedia": "/images/pexels-photo-2004161.webp",
+      "CardMedia": "/images/pexels-photo-2004161.png",
       "avatar": "/images/nibm accpic.jpg"
     },
 
@@ -36,7 +36,7 @@
       "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
       "subtitle2": "Chamara madhushan",
       "date": "October 2, 2020",
-      "CardMedia": "/images/pexels-photo-325111.webp",
+      "CardMedia": "/images/images.jpg",
       "avatar": "/images/photo-1584999734482-0361aecad844.jpg"
     },
     {
@@ -45,7 +45,7 @@
       "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
       "subtitle2": "Sudarshana atapattu",
       "date": "September 2, 2020",
-      "CardMedia": "/images/pexels-photo-325111.webp",
+      "CardMedia": "/images/Information-technology-big-data-collection-complex.jpg",
       "avatar": "/images/photo-1584999734482-0361aecad844.jpg"
     },
     {
@@ -54,8 +54,24 @@
       "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
       "subtitle2": "Amila malmeewala",
       "date": "September 3, 2020",
-      "CardMedia": "/images/pexels-photo-325111.webp",
+      "CardMedia": "/images/wp2465923.jpg",
       "avatar": "/images/photo-1584999734482-0361aecad844.jpg"
     }
   ]
+  ,
+    "About": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Why": [
+            "Lorem ipsum dolor",
+            "Tempor incididunt",
+            "Lorem ipsum dolor",
+            "Incididunt ut labore"
+        ],
+        "Why2": [
+            "Aliquip ex ea commodo",
+            "Lorem ipsum dolor",
+            "Exercitation ullamco",
+            "Lorem ipsum dolor"
+        ]
+    }
 }

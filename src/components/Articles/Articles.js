@@ -14,7 +14,6 @@ import PostsData from "../../posts.json";
 import UIStyles from "./Articlesstyle";
 import { Link } from "react-router-dom";
 
-
 var postsList = PostsData.Posts;
 
 function Articles() {
@@ -26,11 +25,19 @@ function Articles() {
         <Typography variant="h4" className={classes.blogTitle}>
           Articles
         </Typography>
+
         <Grid container spacing={3}>
           {postsList.map((s) => {
             return (
-              <Grid item xs={12} sm={6} md={4} key={s.id} >
-                <Link className="nav-link" to={`/post/${s.id}`} title={s.title} subtitle2={s.subtitle2} content={s.content} date={s.date}>
+              <Grid item xs={12} sm={6} md={4} key={s.id}>
+                <Link
+                  className="nav-link"
+                  to={`/post/${s.id}`}
+                  title={s.title}
+                  subtitle2={s.subtitle2}
+                  content={s.content}
+                  date={s.date}
+                >
                   <Card className={classes.card}>
                     <CardActionArea>
                       <CardMedia
