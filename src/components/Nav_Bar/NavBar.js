@@ -67,6 +67,16 @@ function NavBar() {
                 Contact us
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" id="contactus" href="#">
+                Contact us
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" id="contactus" href="#">
+                Contact us
+              </Link>
+            </li>
           </ul>
           <ul className="navbar-nav">
             <li className="nav-item active">
