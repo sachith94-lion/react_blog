@@ -25,8 +25,11 @@ function NavBar() {
       </AppBar> */}
 
       <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top">
-        <a className="navbar-brand ml-4 
-        " href="#">
+        <a
+          className="navbar-brand ml-4 
+        "
+          href="#"
+        >
           <h1>Blog</h1>
         </a>
         <button
@@ -62,6 +65,11 @@ function NavBar() {
             <li className="nav-item">
               <Link className="nav-link" id="contactus" href="#">
                 Contact us
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" id="contactus" href="#">
+                test
               </Link>
             </li>
           </ul>
