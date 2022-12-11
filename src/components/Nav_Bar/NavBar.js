@@ -72,6 +72,11 @@ function NavBar() {
                 test
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" id="contactus" href="#">
+                test 2
+              </Link>
+            </li>
           </ul>
           <ul className="navbar-nav">
             <li className="nav-item active">
