@@ -77,6 +77,11 @@ function NavBar() {
                 test 2
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" id="contactus" href="#">
+                test 3
+              </Link>
+            </li>
           </ul>
           <ul className="navbar-nav">
             <li className="nav-item active">
